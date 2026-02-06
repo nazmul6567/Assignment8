@@ -1,35 +1,35 @@
 // get
-export const loadWishlist = () => {
+export const loadInstalled = () => {
   try {
-    const data = localStorage.getItem('wishlist')
-    return data ? JSON.parse(data) : []
+    const data = localStorage.getItem('Installed');
+    return data ? JSON.parse(data) : [];
   } catch (err) {
-    console.log(err)
-    return []
+    console.log(err);
+    return [];
   }
-}
+};
 
 // save
 export const updateList = product => {
-  const wishlist = loadWishlist()
+  const Installed = loadInstalled();
 
   try {
-    const isDuplicate = wishlist.some(p => p.id === product.id)
-    if (isDuplicate) return alert('Already added in wishlist')
-    const updatedWishlist = [...wishlist, product]
-    localStorage.setItem('wishlist', JSON.stringify(updatedWishlist))
+    const isDuplicate = Installed.some(p => p.id === product.id);
+    if (isDuplicate) return alert('Already added in Installed');
+    const updatedInstalled = [...Installed, product];
+    localStorage.setItem('Installed', JSON.stringify(updatedInstalled));
   } catch (err) {
-    console.log(err)
+    console.log(err);
   }
-}
+};
 
 // delete
-export const removeFromWishlist = id => {
-  const wishlist = loadWishlist()
+export const removeFromInstalled = id => {
+  const Installed = loadInstalled();
   try {
-    const updatedWishlist = wishlist.filter(p => p.id !== id)
-    localStorage.setItem('wishlist', JSON.stringify(updatedWishlist))
+    const updatedInstalled = Installed.filter(p => p.id !== id);
+    localStorage.setItem('Installed', JSON.stringify(updatedInstalled));
   } catch (err) {
-    console.log(err)
+    console.log(err);
   }
-}
+};

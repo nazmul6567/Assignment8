@@ -14,9 +14,9 @@ const Apps = () => {
   const searchedApps = term
     ? apps.filter(app => app.title.toLowerCase().includes(term))
     : apps;
-  
+
   // if(searchedApps.length === 0)
-    
+
   // jokhon search korbo tar
   useEffect(() => {
     if (search) {
@@ -30,17 +30,15 @@ const Apps = () => {
       setIsSearching(false);
     }
   }, [search]);
-    
-    
 
   return (
-      <div className="max-w-screen-xl mx-auto w-full px-4 md:px-8 lg:px-12 py-4 md:py-8 lg:py-12 flex-1 text-center">
-        
-           <h1 className="font-bold text-3xl md:text-5xl">Our All Applications</h1>
-        <p className="text-gray-400 md:text-xl m-3">Explore All Apps on the Market developed by us. We code for Millions
-        </p>
-      <div className="flex flex-col md:flex-row justify-between items-center m-5 md:mb-8">
-        <span className="md:ml-10 text-xl font-semibold">
+    <div className="max-w-screen-xl mx-auto w-full px-4 md:px-8 lg:px-12flex-1 text-center">
+      <h1 className="font-bold text-3xl md:text-5xl">Our All Applications</h1>
+      <p className="text-gray-400 md:text-xl m-3">
+        Explore All Apps on the Market developed by us. We code for Millions
+      </p>
+      <div className="flex flex-col md:flex-row justify-between items-center m-5 md:mb-8 md:mt-25">
+        <span className="md:ml-10 text-xl md:text-3xl font-semibold">
           ({searchedApps.length}) Apps Found
         </span>
         <label className="input md:mr-10 mt-4 md:mt-0">
@@ -48,7 +46,7 @@ const Apps = () => {
             value={search}
             onChange={e => setSearch(e.target.value)}
             type="search"
-            placeholder="search Apps" 
+            placeholder="search Apps"
           />
         </label>
       </div>
@@ -57,6 +55,10 @@ const Apps = () => {
         <SkeletonLoader />
       ) : isSearching ? (
         <SkeletonLoader />
+      ) : searchedApps.length === 0 ? (
+        <div className="p-10 md:p-30 text-center">
+          <p className="text-3xl md:text-6xl text-gray-500 font-bold">No Apps Found</p>
+        </div>
       ) : (
         <div className="p-10 grid gap-4 md:grid-cols-3 lg:grid-cols-4">
           {searchedApps.map(app => (

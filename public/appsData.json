@@ -6,7 +6,7 @@
     "id": 1,
     "description": "Forest revolutionizes the way you approach productivity by gamifying focus time with an innovative tree-planting mechanism. When you need to concentrate, you plant a virtual seed in the app, and as you stay focused without using your phone, the seed gradually grows into a beautiful tree. However, if you leave the app to check social media or browse other apps, your tree withers and dies, creating a powerful psychological incentive to stay on task.\n\nThe app features a variety of tree species to unlock, each representing different focus sessions and achievements. Users can set custom time intervals ranging from 10 minutes to 2 hours, making it flexible for both short study sessions and extended deep work periods. The forest you cultivate over time serves as a visual representation of your productivity journey, with statistics showing your most productive days, total focus time, and consistency streaks.\n\nWhat sets Forest apart is its real-world impact through a partnership with Trees for the Future. Users can spend virtual coins earned through focused sessions to plant actual trees around the world, transforming digital productivity into environmental action. The app also includes social features allowing friends to plant trees together, creating accountability through shared focus sessions. With over 50 million downloads worldwide, Forest has helped millions overcome phone addiction while contributing to global reforestation efforts.",
     "size": 34.2,
-    "reviews": 798651,
+    "reviews": "54k",
     "rating": 4.9,
     "downloads": "50M",
     "ratings": [
@@ -24,7 +24,7 @@
     "id": 2,
     "description": "To Do List with Reminder by tact brings simplicity and efficiency to task management without overwhelming users with unnecessary features. The app focuses on core functionality, allowing you to quickly create tasks, set reminders, and organize your day with minimal friction. Its clean, intuitive interface ensures that adding a new task takes just seconds, making it perfect for capturing ideas and commitments on the go.\n\nThe reminder system is particularly robust, offering flexible notification options including time-based alerts, location-based reminders, and recurring task schedules. Users can categorize tasks into custom lists such as work, personal, shopping, or any other category that fits their lifestyle. Color-coding options and priority flags help visually distinguish urgent tasks from routine ones, ensuring nothing important slips through the cracks.\n\nDespite its lightweight 6.5 MB size, the app doesn't compromise on essential features. It includes a calendar view for visualizing upcoming tasks, a widget for quick access from your home screen, and seamless cloud synchronization across devices. The app also supports subtasks for breaking down complex projects into manageable steps. With over 5 million downloads and consistently high ratings, To Do List with Reminder proves that effective task management doesn't require complexity, just thoughtful design and reliable execution.",
     "size": 6.5,
-    "reviews": 41234,
+    "reviews": "54k",
     "rating": 4.8,
     "downloads": "5M",
     "ratings": [
@@ -42,7 +42,7 @@
     "id": 3,
     "description": "FLIP Focus Timer introduces an ingeniously simple concept to combat phone distraction: just flip your phone face down to start a focus session. This physical action creates a deliberate commitment to concentration, leveraging the device's accelerometer to track when you're staying focused versus when you're picking up your phone. The tactile nature of flipping your phone makes the act of starting a focus session more intentional and memorable than simply tapping a button.\n\nThe app tracks your cumulative focus time throughout the day, week, and month, presenting detailed statistics and graphs that reveal your productivity patterns. You can set daily focus goals and receive motivational notifications when you're falling behind or celebrating when you exceed your targets. FLIP also includes a study timer mode with customizable intervals, allowing students and professionals to structure their work sessions according to their preferred methodology, whether that's Pomodoro technique or custom time blocks.\n\nOne of FLIP's standout features is its social leaderboard, where users can compare their focus times with friends or compete globally with other productive individuals. This gamification element adds an extra layer of motivation for competitive personalities. The app also integrates with other productivity tools and can automatically log focus sessions to your calendar. At 119 MB, it's a more substantial app, but the size accommodates beautiful visualizations, achievement badges, and an extensive library of ambient sounds designed to enhance concentration during focus sessions.",
     "size": 119,
-    "reviews": 35090,
+    "reviews": "54k",
     "rating": 4.7,
     "downloads": "5M",
     "ratings": [
@@ -60,7 +60,7 @@
     "id": 4,
     "description": "Pomodoro Timer by Pomodrone embodies the philosophy that productivity tools should be powerful yet unobtrusive. Built around the proven Pomodoro Technique developed by Francesco Cirillo, this app structures your work into focused 25-minute intervals separated by short breaks, optimizing cognitive performance and preventing burnout. The minimalist interface eliminates distractions, presenting only what you need: a clean timer, session counter, and simple controls.\n\nCustomization options allow you to adjust work intervals, short break durations, and long break frequencies to match your personal rhythm and work style. Whether you prefer the traditional 25/5 minute split or need longer focus periods for deep work, the app adapts to your needs. Visual and audio cues signal the end of each interval, and you can choose from various notification sounds or opt for silent vibrations in quiet environments like libraries or offices.\n\nThe app's reporting features provide valuable insights into your productivity patterns, showing how many Pomodoros you complete daily, which times of day you're most productive, and how your output trends over weeks and months. This data-driven approach helps you identify optimal work schedules and recognize when you might be overworking or underutilizing your productive hours. Despite being only 12.3 MB, Pomodoro Timer includes essential features like task tagging, goal setting, and cloud backup, making it a comprehensive yet lightweight solution for time-blocking enthusiasts.",
     "size": 12.3,
-    "reviews": 18765,
+    "reviews": "54k",
     "rating": 4.6,
     "downloads": "1M",
     "ratings": [
@@ -78,7 +78,7 @@
     "id": 5,
     "description": "Time Planner positions itself as a comprehensive daily planning solution that combines calendar management, task tracking, and time blocking in a single unified interface. The app recognizes that effective planning requires seeing both your scheduled commitments and your flexible tasks in one view, eliminating the need to switch between multiple applications throughout the day. Its timeline view presents your entire day as a visual schedule, making it immediately clear where you have available time slots and where conflicts might arise.\n\nThe app excels at helping users build and maintain productive routines through recurring event templates. You can create morning routines, workout schedules, or weekly review sessions that automatically populate your calendar, reducing the daily mental overhead of planning. Time Planner also includes habit tracking functionality, allowing you to monitor consistency in activities like exercise, reading, or meditation alongside your scheduled tasks and appointments.\n\nWith intelligent features like estimated task duration, automatic schedule optimization, and workload balancing, Time Planner helps prevent over-commitment and burnout. The app analyzes your planning patterns and provides insights about your time allocation across different life categories like work, family, health, and personal development. Color-coded categories make it easy to glance at your day and ensure you're maintaining balance. At only 8 MB, it's remarkably lightweight for its feature set, making it accessible even on devices with limited storage while maintaining smooth performance throughout the day.",
     "size": 8,
-    "reviews": 24567,
+    "reviews": "54k",
     "rating": 4.5,
     "downloads": "5M",
     "ratings": [
@@ -96,7 +96,7 @@
     "id": 6,
     "description": "Flip Clock transforms your device into an elegant full-screen timepiece that doubles as a sophisticated focus tool. The app features beautifully designed flip-style clock animations reminiscent of classic analog clocks, creating a calming visual experience while you work. More than just aesthetic appeal, the full-screen clock serves a practical purpose: when activated, it locks your screen to prevent distractions while still allowing you to glance at the time during study or work sessions.\n\nThe focus timer integration allows you to set work sessions with the clock display remaining visible, providing a constant reminder of your time commitment without the temptation to check notifications or browse apps. Multiple clock face designs cater to different preferences, from minimalist modern styles to vintage mechanical looks, and the app supports both 12-hour and 24-hour time formats with customizable color schemes to match your environment or personal taste.\n\nBeyond its primary clock function, the app includes productivity features like interval timers for exercise routines, presentation timers for speakers, and meditation timers with gentle alarm sounds. The ambient screen mode prevents battery drain while keeping the clock visible, making it practical for extended use. With over 5 million downloads and 44,000 reviews averaging 4.4 stars, Flip Clock has found its niche among users who appreciate the intersection of form and function, proving that productivity tools can be both useful and beautiful.",
     "size": 12.6,
-    "reviews": 44123,
+    "reviews": "54k",
     "rating": 4.4,
     "downloads": "5M",
     "ratings": [
@@ -114,7 +114,7 @@
     "id": 7,
     "description": "HabitNow takes a scientific approach to behavior change, helping users build lasting habits through systematic tracking and evidence-based motivation techniques. The app understands that habit formation isn't just about willpower—it requires the right systems, consistent tracking, and appropriate rewards. Users can create unlimited habits and routines, each with customizable frequencies ranging from daily activities to weekly or monthly practices, accommodating the natural rhythms of different types of behaviors.\n\nThe app's strength lies in its comprehensive tracking capabilities and insightful analytics. Visual streak displays show your consistency at a glance, creating powerful motivation to maintain your progress and avoid breaking chains of successful days. Detailed statistics reveal patterns in your behavior, highlighting which habits you're successfully maintaining and which might need additional attention or strategy adjustments. The app also supports negative habit tracking, helping users monitor and reduce unwanted behaviors like excessive social media use or unhealthy snacking.\n\nFlexible reminder systems ensure you never forget your habits, with smart notification timing that adapts to your schedule and multiple reminder options for particularly important routines. The app includes a journal feature for recording notes about your experiences, which can be invaluable for understanding what helps or hinders your habit maintenance. Customizable themes and widget options let you personalize the experience, while cloud backup ensures your valuable habit data is never lost. With its 15.8 MB footprint and strong 4.3-star rating across 32,000 reviews, HabitNow demonstrates that effective habit building tools can be both comprehensive and user-friendly.",
     "size": 15.8,
-    "reviews": 32456,
+    "reviews": "54k",
     "rating": 4.3,
     "downloads": "1M",
     "ratings": [
