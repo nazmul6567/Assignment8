@@ -1,3 +1,5 @@
+import { toast } from 'react-toastify';
+
 // get
 export const loadInstalled = () => {
   try {
@@ -10,16 +12,23 @@ export const loadInstalled = () => {
 };
 
 // save
-export const updateList = product => {
+export const updateList = app => {
   const Installed = loadInstalled();
 
   try {
-    const isDuplicate = Installed.some(p => p.id === product.id);
-    if (isDuplicate) return alert('Already added in Installed');
-    const updatedInstalled = [...Installed, product];
-    localStorage.setItem('Installed', JSON.stringify(updatedInstalled));
+    const isDuplicate = Installed.some(p => p.id === app.id);
+    if (isDuplicate) {
+      toast("Already added in Installed");
+      return false;
+    }
+
+    const updatedInstalled = [...Installed, app];
+    localStorage.setItem("Installed", JSON.stringify(updatedInstalled));
+    toast("App Installed Successfully");
+    return true;
   } catch (err) {
     console.log(err);
+    return false;
   }
 };
 
