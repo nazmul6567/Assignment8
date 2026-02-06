@@ -12,7 +12,7 @@ const ErrorPages = () => {
           {error.message}
           <img
             className="px-7 md:px-32 lg:px-44 "
-            src="/src/assets/assets/error-404.png"
+            src="/assets/error-404.png"
             alt=""
           />
           <h1 className="font-extrabold md:font-bold text-2xl md:text-5xl">

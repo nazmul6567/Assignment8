@@ -14,16 +14,16 @@ import {
   BarChart,
   Bar,
 } from 'recharts';
-import { useState } from 'react';import { loadInstalled } from "../utils/localstorage";
-
+import { useState } from 'react';
+import { loadInstalled } from '../utils/localstorage';
 
 const AppDetails = () => {
   const { id } = useParams();
   const [isSelected, setIsSelected] = useState(() => {
-  const installed = loadInstalled();
-  return installed.some(p => p.id === Number(id));
+    const installed = loadInstalled();
+    return installed.some(p => p.id === Number(id));
   });
-  
+
   const { apps, loading } = useApps();
   // console.log(apps);
 
@@ -38,7 +38,7 @@ const AppDetails = () => {
           <div className="flex flex-col items-center justify-center text-center">
             <img
               className="px-7 md:px-32 lg:px-44 max-w-xs md:max-w-xl lg:max-w-2xl"
-              src="/src/assets/assets/App-Error.png"
+              src="/assets/App-Error.png"
               alt=""
             />
             <h1 className="font-extrabold md:font-bold text-2xl md:text-5xl mt-3">
@@ -100,7 +100,7 @@ const AppDetails = () => {
             <div className="flex flex-col gap-1 justify-center items-center md:justify-normal md:items-baseline">
               <img
                 className="h-8 w-8"
-                src="/src/assets/assets/icon-downloads.png"
+                src="/assets/icon-downloads.png"
                 alt=""
               />
               <p className="text-xs md:text-lg font-semibold">Downloads</p>
@@ -110,11 +110,7 @@ const AppDetails = () => {
             </div>
 
             <div className="flex flex-col gap-1 justify-center items-center md:justify-normal md:items-baseline">
-              <img
-                className="h-8 w-8 "
-                src="/src/assets/assets/icon-ratings.png"
-                alt=""
-              />
+              <img className="h-8 w-8 " src="/assets/icon-ratings.png" alt="" />
               <p className="text-xs md:text-lg font-semibold">
                 Average Ratings
               </p>
@@ -126,7 +122,7 @@ const AppDetails = () => {
             <div className="flex flex-col gap-1 justify-center items-center md:justify-normal md:items-baseline">
               <img
                 className="h-8 w-8 items-center"
-                src="/src/assets/assets/icon-review.png"
+                src="/assets/icon-review.png"
                 alt=""
               />
               <p className="text-xs md:text-lg font-semibold">Total Reviews</p>

@@ -50,7 +50,7 @@ const Banner = () => {
       <div className="mt-5 md:mt-10 flex items-center justify-center">
         <img
           className="px-7 md:px-32 lg:px-44 "
-          src="/src/assets/assets/hero.png"
+          src="/assets/hero.png"
           alt=""
         />
       </div>

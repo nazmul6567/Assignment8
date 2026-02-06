@@ -46,17 +46,20 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex justify-center  items-center">
-          <img className="h-8 w-8" src={'/src/assets/assets/logo.png'} alt="" />
-          <Link to='/' className="text-blue-600 font-semibold">HERO.IO</Link>
+          <img className="h-8 w-8" src={'/assets/logo.png'} alt="" />
+          <Link to="/" className="text-blue-600 font-semibold">
+            HERO.IO
+          </Link>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
-  
+
       <div className="navbar-end">
         <a
-          href="https://github.com/nazmul6567" target='_'
+          href="https://github.com/nazmul6567"
+          target="_"
           className="btn btn-primary bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  shadow-lg"
         >
           <span>
